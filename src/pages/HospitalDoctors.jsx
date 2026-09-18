@@ -4,6 +4,7 @@ import {
   ArrowLeft,
   CalendarDays,
   CheckCircle2,
+  FileText,
   Clock,
   ShieldAlert,
   Stethoscope,
@@ -20,6 +21,11 @@ const nav = [
     to: "/hospital/dashboard",
     label: "Dashboard",
     icon: Stethoscope,
+  },
+  {
+    to: "/hospital/referrals",
+    label: "Referrals",
+    icon: FileText,
   },
   {
     to: "/hospital/doctors",

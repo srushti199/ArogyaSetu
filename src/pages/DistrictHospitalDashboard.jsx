@@ -24,6 +24,11 @@ const nav = [
     icon: Hospital,
   },
   {
+    to: "/hospital/referrals",
+    label: "Referrals",
+    icon: FileText,
+  },
+  {
     to: "/hospital/doctors",
     label: "Doctors & Slots",
     icon: Stethoscope,

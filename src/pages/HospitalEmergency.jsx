@@ -5,6 +5,7 @@ import {
   Clock,
   MapPin,
   Phone,
+  FileText,
   ShieldAlert,
   Stethoscope,
   UserRound,
@@ -20,6 +21,11 @@ const nav = [
     to: "/hospital/dashboard",
     label: "Dashboard",
     icon: ShieldAlert,
+  },
+  {
+    to: "/hospital/referrals",
+    label: "Referrals",
+    icon: FileText,
   },
   {
     to: "/hospital/doctors",
